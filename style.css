@@ -1,0 +1,113 @@
+body {
+	
+	font-family: 'Lato', sans-serif;
+	background: #FFFFFF;
+	font-size: 16px;
+	color: black;
+}
+
+article
+{
+	min-height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.articleFiveElements
+{
+	grid-template-rows: auto  1fr auto;
+}
+
+
+.navbar {
+	position: absolute;
+	left: 98px;
+	top: 48px;
+}
+
+.logo {
+	position: absolute;
+	width: 172px;
+	height: 35.95px;
+	left: 98px;
+	top: 48px;
+	color: #515151;
+}
+
+.dev {
+	font-family: 'Racing Sans One', cursive;
+	font-style: normal;
+
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: 0.15em;
+	color: #515151;
+}
+
+.vectorMenu {
+	font-family: 'Racing Sans One', cursive;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 0.02em;
+	color: #515151;
+
+}
+
+.header {
+	position: absolute;
+	width: 1440px;
+	height: 585px;
+	left: 98px;
+	top: 95px;
+}
+
+.title {
+	position: absolute;
+	width: 507px;
+	height: 161px;
+	left: 500px;
+	top: 172px;
+}
+
+.title{
+	position: absolute;
+	width: 507px;
+	height: 118px;
+	left: 500px;
+	top: 172px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 100px;
+	line-height: 117px;
+	/* identical to box height */
+
+	text-align: center;
+	letter-spacing: 0.02em;
+
+color: #E4F132;
+}
+
+.myNameIs {
+	
+	
+	text-align: center;
+	top: 288px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+}
+
+.socialMedia {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 35px; 
+}
